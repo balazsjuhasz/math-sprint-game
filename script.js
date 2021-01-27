@@ -85,7 +85,7 @@ function createEquations() {
 
 // Displays 3, 2, 1, GO!
 const countdownStart = () => {
-  let messages = ['3', '2', '1', 'GO!'];
+  const messages = ['3', '2', '1', 'GO!'];
   for (let i = 0; i < messages.length; i++) {
     setTimeout(() => {
       countdown.textContent = messages[i];
